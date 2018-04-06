@@ -12,7 +12,7 @@ int bug() {
 
 int main(int argc, char **argv) {
 	int counter;
-	scanf("%d", &counter);
+	tis_scanf("%d", &counter);
 
 	if (counter == 75) {
 		bug();
