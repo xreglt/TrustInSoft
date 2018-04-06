@@ -11,8 +11,8 @@ int bug() {
 
 
 int main(int argc, char **argv) {
-	int counter;
-	tis_scanf("%d", &counter);
+	int counter = tis_interval(0, 2^31-1);;
+	// tis_scanf("%d", &counter);
 
 	if (counter == 75) {
 		bug();
