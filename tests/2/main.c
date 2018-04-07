@@ -11,7 +11,7 @@ int bug() {
 
 
 int main(int argc, char **argv) {
-	int counter = tis_interval(0, 2147483647);;
+	int counter = tis_interval(0, 10);;
 	// tis_scanf("%d", &counter);
 
 	if (counter == 75) {
